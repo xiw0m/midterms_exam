@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Cardapio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><span></span>The Cardapio<br><small>Restaurant</small></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="order.html" class="nav-link">Place Order</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
+
+      <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center">
+
+            <div class="col-md-7 col-sm-12 text-center ftco-animate">
+            	<h1 class="mb-3 mt-5 bread">Our Menu</h1>
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Menu</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+		<section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Be prepared to be surprised and delighted by innovative dishes that push the boundaries of flavor and presentation.</h2>
+          </div>
+        </div>
+    	</div>
+
+		<!--MENU ORDER-->
+    	<div class="container-wrap">
+    		<div class="row">
+				<div class="col-md-8">
+				  <div class="card">
+					<div class="card-header">
+					  <h5 class="card-title">Menu</h5>
+					</div>
+					<div class="card-body row text-center">
+					  <div class="col-md-4 mb-4">
+						<img src="images01/menu1.webp" class="img-fluid rounded-start" alt="">
+						<p class="card-text">The Island</p>
+						<p class="card-text">$50.99</p>
+						<div class="input-group mb-3">
+							<input type="number" id="quantity1" value="0" style="background-color: black; color: white;">
+						  </div>
+						  <div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="m1btn">Add to order</button>
+						</div>
+					  </div>
+					  <div class="col-md-4 mb-4">
+						<img src="images01/menu2.webp" class="img-fluid rounded-start" alt="">
+						<p class="card-text">Breadless Bread Plate</p>
+						<p class="card-text">$20.99</p>
+						<div class="input-group mb-3">
+						  <input type="number" id="quantity2" value="0" style="background-color: black; color: white;">
+						  </div>
+						  <div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="m2btn">Add to order</button>
+						</div>
+					  </div>
+					  <div class="col-md-4 mb-4">
+						<img src="images01/menu3.webp" class="img-fluid rounded-start" alt="">
+						<p class="card-text">Memory</p>
+						<p class="text-center">$54.99</p>
+						<div class="input-group mb-3">
+							<input type="number" id="quantity3" value="0" style="background-color: black; color: white;">
+						  </div>
+						  <div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="m3btn">Add to order</button>
+						</div>
+					  </div>
+					  <div class="col-md-4 mb-4">
+						<img src="images01/menu4.webp" class="img-fluid rounded-start" alt="">
+						<p class="card-text">The Mess</p>
+						<p class="text-center">$49.99 </p>
+						<div class="input-group mb-3">
+							<input type="number" id="quantity4" value="0" style="background-color: black; color: white;">
+						  </div>
+						  <div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="m4btn">Add to order</button>
+						</div>
+					  </div>
+					  <div class="col-md-4 mb-4">
+						<img src="images01/menu5.webp" class="img-fluid rounded-start" alt="">
+						<p class="card-text">Passard Egg</p>
+						<p class="text-center">$45.99</p>
+						<div class="input-group mb-3">
+							<input type="number" id="quantity5" value="0" style="background-color: black; color: white;">
+						  </div>
+						  <div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="m5btn">Add to order</button>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<img src="images01/menu6.webp" class="img-fluid rounded-start" alt="">
+						<p class="card-text">Cheeseburger</p>
+						<p class="text-center">$39.99 </p>
+						<div class="input-group mb-3">
+							<input type="number" id="quantity6" value="0" style="background-color: black; color: white;">
+						  </div>
+						  <div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="m6btn">Add to order</button>
+						</div>
+				  </div>
+				  <div class="col-md-4 mb-4">
+					<img src="images01/menu7.webp" class="img-fluid rounded-start" alt="">
+					<p class="card-text">Caviar & Raw Oysters</p>
+					<p class="text-center">$35.99</p>
+					<div class="input-group mb-3">
+						<input type="number" id="quantity7" value="0" style="background-color: black; color: white;">
+					  </div>
+					  <div class="input-group-append">
+						<button class="btn btn-outline-secondary" type="button" id="m7btn">Add to order</button>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<img src="images01/menu8.webp" class="img-fluid rounded-start" alt="">
+					<p class="card-text">Man's Folly</p>
+					<p class="text-center">$29.99</p>
+					<div class="input-group mb-3">
+						<input type="number" id="quantity8" value="0" style="background-color: black; color: white;">
+					  </div>
+					  <div class="input-group-append">
+						<button class="btn btn-outline-secondary" type="button" id="m8btn">Add to order</button>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<img src="images01/menu9.webp" class="img-fluid rounded-start" alt="">
+					<p class="card-text">Tyler's Bullshit</p>
+					<p class="text-center">$65.99 </p>
+					<div class="input-group mb-3">
+						<input type="number" id="quantity9" value="0" style="background-color: black; color: white;">
+					  </div>
+					  <div class="input-group-append">
+						<button class="btn btn-outline-secondary" type="button"  id="m9btn">Add to order</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--END OF MENU ORDER-->
+
+	<!--PLACE ORDER AND TOTAL-->
+	<div class="col-md-4">
+		<div class="card">
+		  <div class="card-header">
+			<h5 class="card-title">Order Summary</h5>
+		  </div>
+		  <div class="card-body">
+			<div class="col-md-12 mb-3 border" id="menu1" style="display: none;">
+				<p class="card-text">The Island</p>
+				<p class="card-text" id="m1total">0</p>
+			  </div>
+			  <div class="col-md-12 mb-3 border" id="menu2" style="display: none;">  
+				<p class="card-text">Breadless Bread Plate</p>
+				<p class="card-text" id="m2total">0</p>
+			  </div>
+			  <div class="col-md-12 mb-3 border" id="menu3" style="display: none;">  
+				<p class="card-text"><b>Memory</b></p>
+				<p class="card-text" id="m3total">0</p>
+			  </div>
+			  <div class="col-md-12 mb-3 border" id="menu4" style="display: none;">  
+				<p class="card-text">The Mess</p>
+				<p class="card-text" id="m4total">0</p>
+			  </div>
+			  <div class="col-md-12 mb-3 border" id="menu5" style="display: none;">  
+				<p class="card-text">Passard Egg</p>
+				<p class="card-text" id="m5total">0</p>
+			</div>
+			<div class="col-md-12 mb-3 border" id="menu6" style="display: none;">  
+				<p class="card-text">Cheeseburger</p>
+				<p class="card-text" id="m6total">0</p>
+			</div>
+			<div class="col-md-12 mb-3 border" id="menu7" style="display: none;">  
+				<p class="card-text">Caviar & Raw Oysters</p>
+				<p class="card-text" id="m7total">0</p>
+			</div>
+			<div class="col-md-12 mb-3 border" id="menu8" style="display: none;">  
+				<p class="card-text">Man's Folly</p>
+				<p class="card-text" id="m8total">0</p>
+			</div>
+			<div class="col-md-12 mb-3 border" id="menu9" style="display: none;">  
+				<p class="card-text">Tyler's Bullshit</p>
+				<p class="card-text" id="m9total">0</p>
+			</div>
+			<div id="total-price"></div> 
+						<p>Enter your Payment Amount:</p>
+						<input type="number" id="paymentamount" value="0" style="background-color: black; color: white;">
+						<button class="btn btn-outline-secondary" type="button"  id="payment" style="margin-top: 20px;">Process Payment</button>
+					  </div>
+			</section>
+
+    <footer class="ftco-footer ftco-section img">
+		<footer class="ftco-footer ftco-section img">
+			<div class="overlay"></div>
+		  <div class="container">
+			<div class="row mb-5">
+			  <div class="col-lg-6 col-md-6 mb-5 mb-md-5">
+				<div class="ftco-footer-widget mb-4">
+				  <h2 class="ftco-heading-2">About Us</h2>
+				  <p>At Hawthorn, we believe in more than just a meal. We curate an immersive culinary journey, pushing the boundaries of flavor and presentation while challenging your perceptions. Embrace the unexpected. Allow Chef Slowik and his dedicated team to guide you through a world of exquisite flavors and artistic expression. Make your reservation today and prepare to embark on a memorable and transformative culinary voyage.</p>
+				  <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+					<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+					<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+					<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="col-lg-6 col-md-6 mb-5 mb-md-5">
+				<div class="ftco-footer-widget mb-4">
+					<h2 class="ftco-heading-2">Contact Us</h2>
+					<div class="block-23 mb-3">
+					  <ul>
+						<li><span class="icon icon-map-marker"></span><span class="text">4827 Hawthorn California Street Cubao, Metro Manila</span></li>
+						<li><a href="#"><span class="icon icon-phone"></span><span class="text">+63 990 099 909</span></a></li>
+						<li><a href="#"><span class="icon icon-envelope"></span><span class="text"> customers@thecardapio.com</span></a></li>
+					  </ul>
+					</div>
+				</div>
+			  </div>
+			</div>
+			</div>
+		  </div>
+		  <p style="text-align: right;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+		</footer>
+		
+		
+	
+	  <!-- loader -->
+	  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <script src="script.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ 
+  <!--JAVASCRIPT FOR ORDER SUMMARY AND TOTAL - I DIDNT SEPARATE THE FILE BECAUSE ITS GONNA BE HARD FOR U TO LOOK IT ON FOLDERS HEHE-->
+ <script>
+
+
+const orderbuttons = document.querySelectorAll('button[id^="m"]');
+orderbuttons.forEach(button => {
+  button.onclick = function() {
+  const m1price = 50.99;
+  const m2price = 20.99;
+  const m3price = 54.99;
+  const m4price = 49.99;
+  const m5price = 45.99;
+  const m6price = 39.99;
+  const m7price = 35.99;
+  const m8price = 29.99;
+  const m9price = 65.99;
+
+  const m1quantity = document.getElementById("quantity1").value;
+  const m2quantity = document.getElementById("quantity2").value;
+  const m3quantity = document.getElementById("quantity3").value;
+  const m4quantity = document.getElementById("quantity4").value;
+  const m5quantity = document.getElementById("quantity5").value;
+  const m6quantity = document.getElementById("quantity6").value;
+  const m7quantity = document.getElementById("quantity7").value;
+  const m8quantity = document.getElementById("quantity8").value;
+  const m9quantity = document.getElementById("quantity9").value;
+
+  const total1 = m1quantity * m1price;
+  const total2 = m2quantity * m2price;
+  const total3 = m3quantity * m3price;
+  const total4 = m4quantity * m4price;
+  const total5 = m5quantity * m5price;
+  const total6 = m6quantity * m6price;
+  const total7 = m7quantity * m7price;
+  const total8 = m8quantity * m8price;
+  const total9 = m9quantity * m9price;
+  const totalAmount = total1 + total2 + total3 + total4 + total5 + total6 + total7 + total8 + total9;
+
+  const totalDisplay = document.getElementById("total-price");
+  totalDisplay.textContent = `TOTAL: $${totalAmount.toFixed(2)} `;
+
+  const processpay = document.getElementById("payment"); 
+
+processpay.addEventListener("click", function() {
+  const paymentamount = parseFloat(document.getElementById("paymentamount").value);
+  const change = paymentamount - totalAmount;
+
+  if (isNaN(paymentamount) || paymentamount < totalAmount) {
+    alert("Invalid amount");
+    return; 
+  }
+  alert(`Your change is: $${change.toFixed(2)}`);
+
+});
+};
+});
+
+
+	const button = document.getElementById("m1btn"); 
+
+if (button) {
+  button.addEventListener("click", function() {
+	const quantity = parseInt(document.getElementById("quantity1").value);
+
+	if (quantity > 0) {
+	  document.getElementById("menu1").style.display = "block";
+	  document.getElementById("m1total").textContent = `Quantity: ${quantity}`;
+	} else {
+	  document.getElementById("menu1").style.display = "none";
+	  alert("Please enter a valid quantity.");
+	}
+  });
+} else {
+  console.error("Button with ID 'm1btn' not found!");
+}
+
+
+
+const button2 = document.getElementById("m2btn"); 
+
+if (button2) {
+  button2.addEventListener("click", function() {
+    const quantity = parseInt(document.getElementById("quantity2").value);
+
+    if (quantity > 0) {
+      document.getElementById("menu2").style.display = "block";
+      document.getElementById("m2total").textContent = `Quantity: ${quantity}`;
+    } else {
+      document.getElementById("menu2").style.display = "none";
+	  alert("Please enter a valid quantity.");
+    }
+  });
+} else {
+  console.error("Button with ID 'm2btn' not found!");
+}
+
+const button3 = document.getElementById("m3btn"); 
+
+if (button3) {
+  button3.addEventListener("click", function() {
+    const quantity = parseInt(document.getElementById("quantity3").value);
+
+    if (quantity > 0) {
+      document.getElementById("menu3").style.display = "block";
+      document.getElementById("m3total").textContent = `Quantity: ${quantity}`; 
+    } else {
+      document.getElementById("menu3").style.display = "none";
+	  alert("Please enter a valid quantity.");
+    }
+  });
+} else {
+  console.error("Button with ID 'm3btn' not found!");
+}
+
+const button4 = document.getElementById("m4btn"); 
+
+if (button4) {
+  button4.addEventListener("click", function() {
+    const quantity = parseInt(document.getElementById("quantity4").value);
+
+    if (quantity > 0) {
+      document.getElementById("menu4").style.display = "block";
+      document.getElementById("m4total").textContent = `Quantity: ${quantity}`; 
+    } else {
+      document.getElementById("menu4").style.display = "none";
+	  alert("Please enter a valid quantity.");
+    }
+  });
+} else {
+  console.error("Button with ID 'm4btn' not found!");
+}
+
+const button5 = document.getElementById("m5btn"); 
+
+if (button5) {
+  button5.addEventListener("click", function() {
+    const quantity = parseInt(document.getElementById("quantity5").value);
+
+    if (quantity > 0) {
+      document.getElementById("menu5").style.display = "block";
+      document.getElementById("m5total").textContent = `Quantity: ${quantity}`; 
+    } else {
+      document.getElementById("menu5").style.display = "none";
+	  alert("Please enter a valid quantity.");
+    }
+  });
+} else {
+  console.error("Button with ID 'm5btn' not found!");
+}
+
+const button6 = document.getElementById("m6btn"); 
+
+if (button6) {
+  button6.addEventListener("click", function() {
+    const quantity = parseInt(document.getElementById("quantity6").value);
+
+    if (quantity > 0) {
+      document.getElementById("menu6").style.display = "block";
+      document.getElementById("m6total").textContent = `Quantity: ${quantity}`; 
+    } else {
+      document.getElementById("menu6").style.display = "none";
+	  alert("Please enter a valid quantity.");
+    }
+  });
+} else {
+  console.error("Button with ID 'm6btn' not found!");
+}
+
+const button7 = document.getElementById("m7btn"); 
+
+if (button7) {
+  button7.addEventListener("click", function() {
+    const quantity = parseInt(document.getElementById("quantity7").value);
+
+    if (quantity > 0) {
+      document.getElementById("menu7").style.display = "block";
+      document.getElementById("m7total").textContent = `Quantity: ${quantity}`; 
+    } else {
+      document.getElementById("menu7").style.display = "none";
+	  alert("Please enter a valid quantity.");
+    }
+  });
+} else {
+  console.error("Button with ID 'm6btn' not found!");
+}
+
+const button8 = document.getElementById("m8btn"); 
+
+if (button8) {
+  button8.addEventListener("click", function() {
+    const quantity = parseInt(document.getElementById("quantity8").value);
+
+    if (quantity > 0) {
+      document.getElementById("menu8").style.display = "block";
+      document.getElementById("m8total").textContent = `Quantity: ${quantity}`; 
+    } else {
+      document.getElementById("menu8").style.display = "none";
+	  alert("Please enter a valid quantity.");
+    }
+  });
+} else {
+  console.error("Button with ID 'm6btn' not found!");
+}
+
+const button9 = document.getElementById("m9btn"); 
+
+if (button9) {
+  button9.addEventListener("click", function() {
+    const quantity = parseInt(document.getElementById("quantity9").value);
+
+    if (quantity > 0) {
+      document.getElementById("menu9").style.display = "block";
+      document.getElementById("m9total").textContent = `Quantity: ${quantity}`; 
+    } else {
+      document.getElementById("menu9").style.display = "none";
+	  alert("Please enter a valid quantity.");
+    }
+  });
+} else {
+  console.error("Button with ID 'm9btn' not found!");
+}
+
+
+
+  </script>
+</body>
+</html>
